@@ -25,7 +25,7 @@
         "../sass/components/_contacts.scss",
         "../sass/components/_mail-form.scss",
         "../sass/components/_activities-list.scss",
-        "../sass/components/card-list.scss",
+        "../sass/components/_card-list.scss",
         "../sass/components/_backdrop.scss",
         "../sass/components/_modal.scss",
         "../sass/components/_close-btn.scss",
