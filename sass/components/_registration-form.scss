@@ -1,0 +1,112 @@
+.form-field
+{
+    margin-bottom: 10px;
+}
+.input-wraper
+{
+    position: relative;
+    margin-top: 4px;
+}
+.modal-icon
+{
+    position: absolute;
+    left: 15px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.customer-data-input
+{
+    width: 100%;
+    border: 1px solid rgba(33, 33, 33, 0.2);
+    border-radius: 4px;
+    padding-right: 15px;
+    transition: border 250ms var(--timing-function), border-radius 250ms var(--timing-function) ;
+    &:hover,
+    &:focus
+    {
+    border: 1px solid var(--secondary-text-color);
+    border-radius: 4px;
+    cursor: pointer;
+    outline: none;
+    }
+}
+
+.modal-icon
+{
+    .customer-data-input:hover + &,
+    .customer-data-input:focus + &
+    {
+        fill: var(--secondary-text-color);
+    }
+}
+.customer-auth
+{
+    min-height: 40px;
+    padding-left: 40px;
+}
+.customer-comment
+{
+    min-height: 120px;
+    padding-left: 16px;
+    padding-top: 12px;
+    margin-bottom: 20px;
+    resize: none;
+    &::placeholder
+    {
+        font-size: 12px;
+        line-height: 1.16;
+        letter-spacing: 0.01em;
+        color: rgba(117, 117, 117, 0.5);
+    }
+}
+
+.customer-data-label
+{
+    font-size: 12px;
+    line-height: 1.16;
+    letter-spacing: 0.01em; 
+    color: #757575;
+}
+.customer-check-label
+{
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: #757575;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.customer-check-link
+{
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: var(--secondary-text-color);
+    display: inline-block;
+    margin-left: 5px;
+}
+.customer-check
+{
+    margin-right: 9px;
+}
+.check-icon-wrap
+{
+    width: 16px;
+    height: 15px;
+    border: 2px solid #212121;
+    border-radius: 3px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 7px;
+    transition: background-color 250ms var(--timing-function);
+    .customer-check:checked + &
+    {
+        background-color: var(--secondary-text-color);
+        border: none;
+    }
+}

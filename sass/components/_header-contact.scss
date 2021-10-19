@@ -1,0 +1,34 @@
+.header-info-list
+{
+    display: flex;
+    margin-left: auto;
+}
+.info-list-item{
+    &:not(:last-child)
+    {
+        margin-right: 50px;
+    }
+}
+.header-link
+{   display: flex;
+    align-items: center;
+    padding-top: 32px;
+    padding-bottom: 32px;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+    color: var(--third-text-color);
+    transition: color 250ms var(--timing-function);
+    &:hover,
+    &:focus
+    {
+        color: var(--secondary-text-color);
+    }
+}
+.header-icon
+{
+    display:inline-block;
+    margin-right: 10px;
+    fill: currentColor;
+}
