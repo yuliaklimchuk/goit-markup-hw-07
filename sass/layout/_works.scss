@@ -3,19 +3,19 @@
     padding-top: 0px;
 
 }
-.works-list
+.works__list
 {
     display: flex;
     align-items: center;
     margin-left: -30px;
 }
-.works-list-item
+.works__item
 {
     flex-basis: calc(100% / 3 - 30px);
     margin-left: 30px;
     position: relative;
 }
-.works-item-wraper
+.works__item-wraper
 {
     position: absolute;
     width: 100%;
@@ -24,11 +24,9 @@
     padding-bottom: 27px;
     bottom: 0;
 }
-.works-item-text
+.works__item-text
 {
-    font-weight: 700;
-    font-size: 14px;
-    line-height: 1.14;
+    @include font(14px,700,1.14);
     text-align: center;
     letter-spacing: 0.03em;
     text-transform: uppercase;

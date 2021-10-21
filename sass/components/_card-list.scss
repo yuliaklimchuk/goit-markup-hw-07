@@ -28,10 +28,8 @@
 }
 .portfolio-content-title
 {
+    @include font(18px,700,2.0);
     margin-bottom: 4px;
-    font-weight: 700;
-    font-size: 18px;
-    line-height: 2.0;
     letter-spacing: 0.06em;
     color: inherit;
 }

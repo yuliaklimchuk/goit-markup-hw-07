@@ -13,12 +13,10 @@
 }
 .portfolio-button-item
 {
+    @include font (16px,500,1.62);
     padding: 6px 22px;
     background-color: #F5F4FA;
     border-radius: 4px;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.62;
     text-align: center;
     letter-spacing: 0.03em;
     font-family: inherit;

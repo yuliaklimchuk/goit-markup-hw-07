@@ -1,20 +1,20 @@
-.form-field
+.registration-form__field
 {
     margin-bottom: 10px;
 }
-.input-wraper
+.registration-form__input-wraper
 {
     position: relative;
     margin-top: 4px;
 }
-.modal-icon
+.registration-form__icon
 {
     position: absolute;
     left: 15px;
     top: 50%;
     transform: translateY(-50%);
 }
-.customer-data-input
+.registration-form__data-input
 {
     width: 100%;
     border: 1px solid rgba(33, 33, 33, 0.2);
@@ -31,10 +31,10 @@
     }
 }
 
-.modal-icon
+.registration-form__icon
 {
-    .customer-data-input:hover + &,
-    .customer-data-input:focus + &
+    .registration-form__data-input:hover + &,
+    .registration-form__data-input:focus + &
     {
         fill: var(--secondary-text-color);
     }
@@ -60,14 +60,14 @@
     }
 }
 
-.customer-data-label
+.registration-form__label
 {
     font-size: 12px;
     line-height: 1.16;
     letter-spacing: 0.01em; 
     color: #757575;
 }
-.customer-check-label
+.registration-form__check-label
 {
     font-size: 14px;
     line-height: 1.71;
@@ -80,7 +80,7 @@
     align-items: center;
     justify-content: center;
 }
-.customer-check-link
+.registration-form__link
 {
     font-size: 14px;
     line-height: 1.71;
@@ -89,11 +89,11 @@
     display: inline-block;
     margin-left: 5px;
 }
-.customer-check
+.registration-form__check
 {
     margin-right: 9px;
 }
-.check-icon-wrap
+.registration-form__icon-wrap
 {
     width: 16px;
     height: 15px;
@@ -104,9 +104,14 @@
     justify-content: center;
     margin-right: 7px;
     transition: background-color 250ms var(--timing-function);
-    .customer-check:checked + &
+    .registration-form__check:checked + &
     {
         background-color: var(--secondary-text-color);
         border: none;
     }
+}
+
+.registration-form__btn
+{
+    margin: 0 auto;
 }

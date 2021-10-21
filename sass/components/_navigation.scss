@@ -1,27 +1,22 @@
-.header-list
+.navigation-list
 {
     display: flex;
 
 }
-.header-list-item
+.navigation-list__item
 {
     &:not(:last-child)
     {
         margin-right: 50px;
     }
 }
-.header-navigation
-{
-    display: flex;
-    align-items: center;
-}
-.header-list-link
-{   display: block;
+
+.navigation-list__link
+{   
+    @include font(14px,500,1.14);
+    display: block;
     padding-top: 32px;
     padding-bottom: 32px;
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 1.14;
     letter-spacing: 0.02em;
     color: inherit;
     position: relative;
