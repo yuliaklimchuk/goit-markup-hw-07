@@ -157,11 +157,11 @@ body {
   transition: opacity 250ms var(--timing-function);
 }
 
-.navigation-list__link:hover, .navigation-list__link:focus {
+.current .navigation-list__link, .navigation-list__link:hover, .navigation-list__link:focus {
   color: var(--secondary-text-color);
 }
 
-.navigation-list__link:hover::after, .navigation-list__link:focus::after {
+.current .navigation-list__link::after, .navigation-list__link:hover::after, .navigation-list__link:focus::after {
   opacity: 1;
 }
 
@@ -352,7 +352,7 @@ body {
   transition: background-color 250ms var(--timing-function), border-radius 250ms var(--timing-function), color 250ms var(--timing-function);
 }
 
-.footer-social .social-list__link {
+.footer-box__social .social-list__link {
   background-color: rgba(255, 255, 255, 0.1);
   border-radius: 50%;
   color: #FFFFFF;
@@ -497,7 +497,7 @@ body {
   color: var(--secondary-text-color);
 }
 
-.contacts__link-adres {
+.contacts__link-adress {
   color: #FFFFFF;
 }
 

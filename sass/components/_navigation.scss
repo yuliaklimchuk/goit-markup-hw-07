@@ -33,6 +33,7 @@
         opacity: 0;
         transition: opacity 250ms var(--timing-function);
     }
+    .current &,
     &:hover,
     &:focus
     {
@@ -43,5 +44,3 @@
         }
     }
 }
-
-
